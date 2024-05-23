@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Botão Pulsante</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffffff;
+  }
+
+  .container {
+    text-align: center;
+    position: relative;
+  }
+
+  .button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #FFCBDB;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s;
+    text-decoration: none; /* Remove underline for link */
+  }
+
+  .button:hover {
+    background-color: #45a049;
+  }
+
+  .arrow {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid #FFCBDB;
+    box-sizing: border-box;
+  }
+
+  .arrow.top-left {
+    top: -50px;
+    left: -50px;
+    border-top: none;
+    border-left: none;
+  }
+
+  .arrow.top-right {
+    top: -50px;
+    right: -50px;
+    border-top: none;
+    border-right: none;
+  }
+
+  .arrow.bottom-left {
+    bottom: -50px;
+    left: -50px;
+    border-bottom: none;
+    border-left: none;
+  }
+
+  .arrow.bottom-right {
+    bottom: -50px;
+    right: -50px;
+    border-bottom: none;
+    border-right: none;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <a href="carta.html" style="color: #d87dab;" class="button" id="pulseButton">Clique aqui Xuxunega!! <3. </a>
+  <div class="arrow top-left"></div>
+  <div class="arrow top-right"></div>
+  <div class="arrow bottom-left"></div>
+  <div class="arrow bottom-right"></div>
+</div>
+
+</body>
+</html>
